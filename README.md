@@ -23,7 +23,7 @@ Backend REST API สำหรับระบบติดตาม Progress ข�
 ### 1. Clone project และเข้าโฟลเดอร์
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/HeisKong/student-progress-api.git
 cd student-progress-api
 ```
 
