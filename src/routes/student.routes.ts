@@ -7,13 +7,11 @@ import { progressSchema } from '../schemas/progress.schema';
 
 const router = Router();
 
-// Student
 router.post('/', validate(createStudentSchema), createStudent);
 router.get('/', listStudents);
 router.get('/:id', getStudent);
 router.put('/:id', validate(updateStudentSchema), updateStudent);
 
-// Progress
 router.post('/:studentId/progress', validate(progressSchema), saveProgress);
 router.put('/:studentId/progress', validate(progressSchema), saveProgress);
 router.get('/:studentId/progress', getProgress);

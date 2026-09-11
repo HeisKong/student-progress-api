@@ -1,7 +1,5 @@
--- CreateEnum
 CREATE TYPE "ProgressStatus" AS ENUM ('NOT_STARTED', 'IN_PROGRESS', 'COMPLETED');
 
--- CreateTable
 CREATE TABLE "students" (
     "id" SERIAL NOT NULL,
     "student_code" VARCHAR(50) NOT NULL,
@@ -14,7 +12,6 @@ CREATE TABLE "students" (
     CONSTRAINT "students_pkey" PRIMARY KEY ("id")
 );
 
--- CreateTable
 CREATE TABLE "progress" (
     "id" SERIAL NOT NULL,
     "student_id" INTEGER NOT NULL,
