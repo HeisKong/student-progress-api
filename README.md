@@ -11,7 +11,6 @@ Backend REST API สำหรับระบบติดตาม Progress ข�
 - Prisma ORM
 - Zod
 - Docker Compose
-- Jest + Supertest (test setup)
 
 ## Requirements
 
@@ -316,8 +315,3 @@ Seed sample data:
 npm run prisma:seed
 ```
 
-Run tests:
-
-```bash
-npm test
-```
